@@ -16,10 +16,10 @@ Consider that we have a class Show that belongs_to Event (that the show is a par
 
 This will create two methods on Show:
 
-  show_time_local_to_event
-  show_time_local_to_organization
+    show_time_local_to_event
+    show_time_local_to_organization
 
-The object specified by :local_to needs to have a property called time_zone which returns a string timezone ("Pacific Time (US & Canada)")
+The object specified by `:local_to` needs to have a property called `time_zone` which returns a string timezone ("Pacific Time (US & Canada)")
 
 ## Installation 
 
